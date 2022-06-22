@@ -1,0 +1,49 @@
+body {
+    background: url('background.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    margin: 0;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #5a382de3;
+    text-align: center;
+    color: #D7C1B1;
+    margin: 0;
+}
+
+.tabContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 16px;
+}
+
+button {
+    color: #B39E90;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+}
+
+.h1 {
+    font-size: 48px;
+}
+
+.contentContainer {
+    text-align: center;
+    margin: 100px;
+    padding: 8px;
+    background-color: #d7c1b17e;
+}
+
+h5 {
+    color: white;
+    font-size: 48px;
+}
+
+p {
+    color: white;
+    font-size: 36px;
+}
